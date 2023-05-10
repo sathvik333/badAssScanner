@@ -1,0 +1,50 @@
+C:\Users\91767\OneDrive\Desktop\toolIntegration\.git\COMMIT_EDITMSG: OK
+C:\Users\91767\OneDrive\Desktop\toolIntegration\.git\config: OK
+C:\Users\91767\OneDrive\Desktop\toolIntegration\.git\description: OK
+C:\Users\91767\OneDrive\Desktop\toolIntegration\.git\FETCH_HEAD: OK
+C:\Users\91767\OneDrive\Desktop\toolIntegration\.git\HEAD: OK
+C:\Users\91767\OneDrive\Desktop\toolIntegration\.git\hooks\applypatch-msg.sample: OK
+C:\Users\91767\OneDrive\Desktop\toolIntegration\.git\hooks\commit-msg.sample: OK
+C:\Users\91767\OneDrive\Desktop\toolIntegration\.git\hooks\fsmonitor-watchman.sample: OK
+C:\Users\91767\OneDrive\Desktop\toolIntegration\.git\hooks\post-update.sample: OK
+C:\Users\91767\OneDrive\Desktop\toolIntegration\.git\hooks\pre-applypatch.sample: OK
+C:\Users\91767\OneDrive\Desktop\toolIntegration\.git\hooks\pre-commit.sample: OK
+C:\Users\91767\OneDrive\Desktop\toolIntegration\.git\hooks\pre-merge-commit.sample: OK
+C:\Users\91767\OneDrive\Desktop\toolIntegration\.git\hooks\pre-push.sample: OK
+C:\Users\91767\OneDrive\Desktop\toolIntegration\.git\hooks\pre-rebase.sample: OK
+C:\Users\91767\OneDrive\Desktop\toolIntegration\.git\hooks\pre-receive.sample: OK
+C:\Users\91767\OneDrive\Desktop\toolIntegration\.git\hooks\prepare-commit-msg.sample: OK
+C:\Users\91767\OneDrive\Desktop\toolIntegration\.git\hooks\push-to-checkout.sample: OK
+C:\Users\91767\OneDrive\Desktop\toolIntegration\.git\hooks\update.sample: OK
+C:\Users\91767\OneDrive\Desktop\toolIntegration\.git\index: OK
+C:\Users\91767\OneDrive\Desktop\toolIntegration\.git\info\exclude: OK
+C:\Users\91767\OneDrive\Desktop\toolIntegration\.git\logs\HEAD: OK
+C:\Users\91767\OneDrive\Desktop\toolIntegration\.git\logs\refs\heads\master: OK
+C:\Users\91767\OneDrive\Desktop\toolIntegration\.git\objects\21\55201c125a9b9984188cb84005f43db9f203c0: OK
+C:\Users\91767\OneDrive\Desktop\toolIntegration\.git\objects\23\0a299e11d6244744ccf3fe43e5ecfb2a05720d: OK
+C:\Users\91767\OneDrive\Desktop\toolIntegration\.git\objects\35\9461a4c7a171dfa021146dc0d42154821ea7ee: OK
+C:\Users\91767\OneDrive\Desktop\toolIntegration\.git\objects\4e\57a2e2257bd4e971dc8ab52c275562a780f2be: OK
+C:\Users\91767\OneDrive\Desktop\toolIntegration\.git\objects\4f\b2a83cc97b6a10877d52f69bb574e246f9a020: OK
+C:\Users\91767\OneDrive\Desktop\toolIntegration\.git\objects\8d\bd18c84698397c23d9cf643e733f84df51509b: OK
+C:\Users\91767\OneDrive\Desktop\toolIntegration\.git\objects\90\d5ebd39bac728eeb14bedd373d2ee03d60e739: OK
+C:\Users\91767\OneDrive\Desktop\toolIntegration\.git\objects\9f\cde64b5916a8e71e25be3e90d437ceac39bb0d: OK
+C:\Users\91767\OneDrive\Desktop\toolIntegration\.git\objects\bd\3bf506b4c469a9c724da5fc80adb7896ed7594: OK
+C:\Users\91767\OneDrive\Desktop\toolIntegration\.git\objects\d4\aa12486d715520e548efb98330552d485e482a: OK
+C:\Users\91767\OneDrive\Desktop\toolIntegration\.git\objects\ff\36588669996e1acedd426c819deb5c620a58c0: OK
+C:\Users\91767\OneDrive\Desktop\toolIntegration\.git\ORIG_HEAD: OK
+C:\Users\91767\OneDrive\Desktop\toolIntegration\.git\refs\heads\master: OK
+C:\Users\91767\OneDrive\Desktop\toolIntegration\ErrorHandeled.bat: OK
+C:\Users\91767\OneDrive\Desktop\toolIntegration\raw.bat: OK
+C:\Users\91767\OneDrive\Desktop\toolIntegration\scan_results.txt: OK
+
+----------- SCAN SUMMARY -----------
+Known viruses: 8665703
+Engine version: 1.1.0
+Scanned directories: 24
+Scanned files: 38
+Infected files: 0
+Data scanned: 0.02 MB
+Data read: 0.01 MB (ratio 2.00:1)
+Time: 21.019 sec (0 m 21 s)
+Start Date: 2023:05:11 01:43:01
+End Date:   2023:05:11 01:43:22
