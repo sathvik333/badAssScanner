@@ -12,7 +12,7 @@ if not "%scanType%"=="r" if not "%scanType%"=="i" if not "%scanType%"=="f" if no
     echo Asshole dont play smart.
     exit /b 1
 )
-
+"ClamAv\freshclam.exe"
 "D:\ClamAv\clamscan.exe" -"%scanType%" "%directory%" > scan_results.txt
 
 REM Extract the total number of scanned files from the scan results
@@ -29,3 +29,5 @@ echo Total files scanned: %totalFiles%
 echo Infected files found: %infectedFiles%
 set /a riskScore=(%infectedFiles% * 100) / %totalFiles%
 echo The Risk Percentage of %directory% is %riskScore%
+
+@REM yara -r C:\Users\91767\OneDrive\Desktop\badAssScanner\YARA\Rules.yar "%directory%"
