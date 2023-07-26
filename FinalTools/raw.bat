@@ -1,18 +1,18 @@
 @echo off
-set /p directory=Enter directory path to scan badAsses: 
+set /p directory=Enter directory path to scan : 
 echo Enter what kind of scan you want to perform:
 echo r to scan directories recursively
 echo i to only scan infected files
 echo f to force scanning of all files
 echo a to scan all files including hidden ones 
 echo z to scan archived files (e.g., zip files).
-set /p scanType=
+set /p scanType=*
 
 if not "%scanType%"=="r" if not "%scanType%"=="i" if not "%scanType%"=="f" if not "%scanType%"=="a" if not "%scanType%"=="z" (
-    echo Asshole dont play smart.
+    echo Incorrect Option !
     exit /b 1
 )
-"D:\ClamAv\freshclam.exe"
+@REM "D:\ClamAv\freshclam.exe"
 "D:\ClamAv\clamscan.exe" -"%scanType%" "%directory%" > scan_results.txt
 
 REM Extract the total number of scanned files from the scan results
@@ -30,4 +30,29 @@ echo Infected files found: %infectedFiles%
 set /a riskScore=(%infectedFiles% * 100) / %totalFiles%
 echo The Risk Percentage of %directory% is %riskScore%
 
-@REM yara -r C:\Users\91767\OneDrive\Desktop\badAssScanner\YARA\Rules.yar "%directory%"
+
+REM Set the installation paths and filenames
+@REM set "yaraZipFile=yara.zip"
+@REM set "yaraInstallDir=C:\Users\91767\OneDrive\Desktop\badAssScanner"
+@REM set "yaraExecutable=yara.exe"
+
+@REM REM Download the YARA ZIP file from the official repository
+@REM curl -L -o %yaraZipFile% https://github.com/VirusTotal/yara/releases/download/v4.1.0/yara-4.1.0-win64.zip
+
+@REM REM Extract the YARA files from the ZIP archive
+@REM powershell -Command "Expand-Archive -Path %yaraZipFile% -DestinationPath %yaraInstallDir%"
+
+@REM @REM REM Add the YARA installation directory to the system's PATH environment variable
+@REM @REM setx /M PATH "%yaraInstallDir%;%PATH%"
+
+@REM @REM REM Display success message
+@REM @REM echo YARA has been successfully installed.
+
+@REM @REM REM Clean up the downloaded ZIP file
+@REM @REM del %yaraZipFile%
+
+@REM @REM REM Exit the script
+@REM @REM exit /B
+
+
+@REM @REM yara -r C:\Users\91767\OneDrive\Desktop\badAssScanner\YARA\Rules.yar "%directory%"
